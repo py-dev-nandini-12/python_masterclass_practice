@@ -1,3 +1,4 @@
+# to calculate tax using control flow statements
 total_income = 10_000
 gross_income = float(input('Please enter your gross income : '))
 if gross_income < total_income:
@@ -12,6 +13,3 @@ elif 30_000 < gross_income < 50_000:
 elif gross_income > 50_000:
         after_tax = round(gross_income - 0.50*gross_income)
         print(f"The after tax income is {after_tax}")
-    
-
-
